@@ -100,7 +100,7 @@ fig.legend(['Nth digit','Cumulative Average'], loc=5)
 ```
 
 
-![png](../images/output_7_0.png)
+![png](../images/pi-vis/output_7_0.png)
 
 
 # Observations
@@ -152,7 +152,7 @@ fig.savefig('graphs/diff_middle_10000.png')
 ```
 
 
-![png](../images/output_11_0.png)
+![png](../images/pi-vis/output_11_0.png)
 
 
 
