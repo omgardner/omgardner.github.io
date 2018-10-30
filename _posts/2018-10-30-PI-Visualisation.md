@@ -1,8 +1,5 @@
----
-layout: post
-title: Visualising π
-author: omgardner
----
+# Visualising π
+
 # Ensuring that PI is accurate 
 Python's math.pi is only so precise, pi rounded to a 15 decimal places in a float datatype.
 
@@ -24,8 +21,13 @@ print('3.' + digit_str[:50] + '...')
 
 # Goal of the Visualisation
     How does the average value of π change over the first 1000 digits?
+	
 To visualise this, we need to find the average value of π up to the nth digit, for 1<=n<=1000
-An efficient method is by calculating the cumulative average, based on the last average, the N values counted so far, and the new value incorporated into the average.
+
+An efficient method is by calculating the cumulative average, based on 
+- the last average 
+- the N values counted so far
+- the n+1 th value
 
 
 ```python
@@ -103,7 +105,7 @@ fig.legend(['Nth digit','Cumulative Average'], loc=5)
 ```
 
 
-![png](../images/pi-vis/output_7_0.png)
+![png](pi-vis/output_7_0.png)
 
 
 # Observations
@@ -149,13 +151,12 @@ ax.grid(color="#b1bbcc", linestyle='-', linewidth=1)
 sns.despine(fig, left=True, bottom=True)
 
 ax.set_ylim(-0.3,0.3)
-fig.savefig('graphs/diff_middle_10000.png')
 # add legend
 #fig.legend(['Nth digit','Cumulative Average'], loc=5)
 ```
 
 
-![png](../images/pi-vis/output_11_0.png)
+![png](pi-vis/output_11_0.png)
 
 
 
