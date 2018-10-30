@@ -1,4 +1,9 @@
-# Visualising π
+---
+layout: post
+title: Visualising π
+categories: [visualisation, math]
+tags: [python,seaborn,pi]
+---
 
 # Ensuring that PI is accurate 
 Python's math.pi is only so precise, pi rounded to a 15 decimal places in a float datatype.
@@ -20,11 +25,11 @@ print('3.' + digit_str[:50] + '...')
     
 
 # Goal of the Visualisation
-    How does the average value of π change over the first 1000 digits?
+>How does the average value of π change over the first 1000 digits?
 	
 To visualise this, we need to find the average value of π up to the nth digit, for 1<=n<=1000
 
-An efficient method is by calculating the cumulative average, based on 
+An efficient method is by calculating the cumulative average, based on:
 - the last average 
 - the N values counted so far
 - the n+1 th value
@@ -115,9 +120,9 @@ fig.legend(['Nth digit','Cumulative Average'], loc=5)
 # Feedback on the graph
 From the post i submitted [on this reddit post](https://www.reddit.com/r/dataisbeautiful/comments/9kopfb/cumulative_average_for_the_first_1000_digits_of_π/)
     
-It was noted that the values seem to approach 4.5 ("never asymptote to 4.5")
-The idea is a spectrogram will show variation aroung 4.5 for higher values of pi.
-To check this I used 10000 digits to see if the cumulative average approaches 4.5.
+It was noted that the values seem to approach 4.5 ("never asymptote to 4.5").
+To check this, i used a spectrogram (line graph showing variation around a point over the x dimension)
+I used 10000 digits of π to see if the cumulative average approaches 4.5, and if it crosses the threshold.
 
 
 ```python
@@ -170,4 +175,7 @@ for i in range(7000,10000):
     7882
     
 
-We can see that the cumulative average digit value for π exceeds 4.5 until ~7800. This 
+We can see that the cumulative average digit value for π exceeds 4.5 until ~7800. 
+This is anecdotal evidence of a convergence of average digit values to 4.5. 
+
+However, I could not conclude this to be a comprensive proof, due to how few digits of π are used here.
