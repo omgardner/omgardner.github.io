@@ -1,5 +1,8 @@
-# Visualising π
-
+---
+layout: post
+title: Visualising π
+author: omgardner
+---
 # Ensuring that PI is accurate 
 Python's math.pi is only so precise, pi rounded to a 15 decimal places in a float datatype.
 
