@@ -3,10 +3,13 @@ layout: post
 title: Visualising π
 categories: [visualisation, math]
 tags: [python,seaborn,pi]
+excerpt_separator: <!--more-->
 ---
+Visualising the first 1000 and 10000 digits of π, to see if there are any interesting patterns to see. 
 
-# Ensuring that PI is accurate 
-Python's math.pi is only so precise, pi rounded to a 15 decimal places in a float datatype.
+<!--more-->
+## Ensuring that π is accurate 
+Python's math.pi is only so precise, π rounded to a 15 decimal places in a float datatype.
 
 Therefore we need another source for the digits. My solution it to just retrieve it from the internet, as this does not require implementing my own algorithm.
 
@@ -24,7 +27,7 @@ print('3.' + digit_str[:50] + '...')
     3.14159265358979323846264338327950288419716939937510...
     
 
-# Goal of the Visualisation
+## Goal of the Visualisation
 >How does the average value of π change over the first 1000 digits?
 	
 To visualise this, we need to find the average value of π up to the nth digit, for 1<=n<=1000

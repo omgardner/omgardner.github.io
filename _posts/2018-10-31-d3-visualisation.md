@@ -1,24 +1,19 @@
 ---
 layout: post
 title: Survey Visualisation using d3.js and Flask
+excerpt_separator: <!--more-->
 ---
-
-## Why this was made
-This was a group project completed over a week as part of the Macquarie University's **2017 Computing Undergraduate Winter Workshop**
-The goal was to provide a method of visually comparing the results of a individual survey to that of every other person.
-
-More information can be found at the bitbucket repo [here](https://bitbucket.org/altmattr/personalised-correlation/src/master/).
-
 ## Visualisation
 Visualize an individual's response to a survey compared to other people.
 
-Once the user completes their Qualtrics survey, a 3D force graph generated and embedded in an iframe.
+Once the user completes their Qualtrics survey, a 3D force graph is generated and embedded in an iframe.
 
-![visualisation demo](/images/d3-vis/vis-screen.png)
+![visualisation demo](/images/d3-vis/d3-screen.png)
 
 [^Fig. 1:]: Visualisation demo run locally with cursor hovering over a node
 [^Node:]: Question
 [^Edges:]: Correlation between questions.
+<!--more-->
 
 ### More detail
 - Node Color: Individual Question Response
@@ -26,6 +21,13 @@ Once the user completes their Qualtrics survey, a 3D force graph generated and e
 
 - Edge Color: Green = Positive, Red = Negative
 - Edge Thickness: Absolute strength of correlation, thickest = +-10, thinnest = 0
+
+
+## Why this was made
+This was a group project completed over a week as part of the Macquarie University's **2017 Computing Undergraduate Winter Workshop**
+The goal was to provide a method of visually comparing the results of a individual survey to that of every other person.
+
+More information can be found at the bitbucket repo [here](https://bitbucket.org/altmattr/personalised-correlation/src/master/).
 
 
 ## My Tasks
