@@ -105,7 +105,7 @@ fig.legend(['Nth digit','Cumulative Average'], loc=5)
 ```
 
 
-![png](pi-vis/output_7_0.png)
+![png](/images/pi-vis/output_7_0.png)
 
 
 # Observations
@@ -156,7 +156,7 @@ ax.set_ylim(-0.3,0.3)
 ```
 
 
-![png](pi-vis/output_11_0.png)
+![png](/images/pi-vis/output_11_0.png)
 
 
 
