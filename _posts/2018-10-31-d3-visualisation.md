@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Survey Visualisation using d3.js and Flask
+categories: [visualisation, data cleaning, regex, flask]
+tags: [python, flask, d3.js, qualtrics]
+permalink: /force-graph/
 excerpt_separator: <!--more-->
 ---
 ## Visualisation

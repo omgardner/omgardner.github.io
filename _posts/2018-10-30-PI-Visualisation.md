@@ -3,9 +3,12 @@ layout: post
 title: Visualising π
 categories: [visualisation, math]
 tags: [python,seaborn,pi]
+
+permalink: /pi-vis/
 excerpt_separator: <!--more-->
 ---
 Visualising the first 1000 and 10000 digits of π, to see if there are any interesting patterns to see. 
+![png](/images/pi-vis/output_7_0.png)
 
 <!--more-->
 ## Ensuring that π is accurate 

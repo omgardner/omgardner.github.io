@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi! My name is Oscar.
+I enjoy exploring datasets, and understanding the current digital world we live in.
+
+### Interests
+
+- Data Scraping
+- Mining
+- Logistics
+- Video Games
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+- Completing Final year of **Bachelor of IT** degree with **Data Science** Major at **Macquarie University**
+- Currently living in Sydney
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[oscarmgardner@gmail.com](mailto:oscarmgardner@gmail.com)
+
+Alternatively, you can check the link below to see my linkedin and github account.
