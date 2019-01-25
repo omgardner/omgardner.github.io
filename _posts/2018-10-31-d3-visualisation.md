@@ -6,7 +6,6 @@ tags: [python, flask, d3.js, qualtrics]
 permalink: /force-graph/
 excerpt_separator: <!--more-->
 ---
-## Visualisation
 Visualize an individual's response to a survey compared to other people.
 
 Once the user completes their Qualtrics survey, a 3D force graph is generated and embedded in an iframe.
