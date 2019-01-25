@@ -44,7 +44,7 @@ This meant taking a csv returned from a Qualtrics API call, and processing it in
    - A pearson correlation matrix between questions **(edge colour + thickness)**
      - Had to rescale the correlation to a value between -10 and +10 for visualisation purposes.
 		![Correlation matrix heatmap](/images/d3-vis/svm_conf.png)
-		[^Fig. 2]: Example pearson correlation heatmap for all demo questions. 
+		[^Fig. 2:]: Example pearson correlation heatmap for all demo questions. 
 	 
    - Calculate average response **(size of node)**
      - Involved normalising the question responses to a 1-4 range
