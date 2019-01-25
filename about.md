@@ -24,4 +24,4 @@ I enjoy exploring datasets, and understanding the current digital world we live 
 
 [oscarmgardner@gmail.com](mailto:oscarmgardner@gmail.com)
 
-Alternatively, you can check the link below to see my linkedin and github account.
+Alternatively, you can check the links below to see my linkedin and github account.
