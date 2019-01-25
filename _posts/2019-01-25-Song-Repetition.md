@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Song repetition Visualised
+title: Song Repetition Visualised
 categories: [visualisation, python, seaborn, music]
 tags: [visualisation, python, seaborn, music]
 permalink: /song-repetition/
@@ -23,7 +23,7 @@ The diagonal appears because both axes show the word in the same order.
 ## Method of creation
 The code for this visual can be found [here](https://github.com/omgardner/graphs/blob/master/graphs/repetition_patterns/code.py). 
 
-The lyrics were sourced from (kaggle)[https://www.kaggle.com/rakannimer/billboard-lyrics], and have been word-tokenized. 
+The lyrics were sourced from [kaggle](https://www.kaggle.com/rakannimer/billboard-lyrics]), and have been word-tokenized. 
 
 Then I iterated over the lyrics in two nested loops, comparing word_a to word_b. If equal, take the indexes for both words, and use them as coordinates for a scatterplot.
 
