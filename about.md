@@ -10,18 +10,17 @@ I enjoy exploring datasets, and understanding the current digital world we live 
 ### Interests
 
 - Data Scraping
-- Mining
 - Logistics
-- Video Games
+- Visualisations
 
 ### More Information
 
-- Completing Final year of **Bachelor of IT** degree with **Data Science** Major at **Macquarie University**
+- Completed **Bachelor of IT** degree with **Data Science** Major at **Macquarie University** (awaiting graduation ceremony in April)
 - Currently living in Sydney
 
 
 ### Contact me
-
 [oscarmgardner@gmail.com](mailto:oscarmgardner@gmail.com)
+
 
 Alternatively, you can check the links below to see my linkedin and github account.
