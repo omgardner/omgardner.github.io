@@ -3,7 +3,7 @@ layout: post
 title: Leaflet Experiments Using Folium
 categories: [visualisation, python, folium, leaflet, gis, transport]
 tags: [visualisation, python, folium, leaflet, gis, transport, bus]
-permalink: /song-repetition/
+permalink: /folium-live-bus/
 excerpt_separator: <!--more-->
 ---
 Leaflet showing (past) live bus data in NSW, Australia via TfNSW API
