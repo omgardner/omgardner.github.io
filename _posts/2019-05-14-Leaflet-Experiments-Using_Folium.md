@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 Leaflet showing (past) live bus data in NSW, Australia via TfNSW API
 
-![visualisation demo](images/folium-bus/freeze-frame.PNG)
+![visualisation demo](/images/folium-bus/freeze-frame.PNG)
 
 <!--more-->
 (non-interactive version, interactive version to be added.)
