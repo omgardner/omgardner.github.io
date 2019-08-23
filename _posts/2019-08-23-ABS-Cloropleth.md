@@ -7,8 +7,10 @@ tags: [python, QGIS, ABS, choropleth]
 permalink: /abs-choropleth/
 excerpt_separator: <!--more-->
 ---
-Median Weekly income distribution by NSW Suburb
+
 ![png](\images\abs-choropleth\NSW_choropleth.png)
+
+Median Weekly income distribution by NSW Suburb
 
 <!--more-->
 
@@ -25,22 +27,33 @@ The suburb labels that are shown are high median income (black text white backgr
 
 Also, the idea was to use QGIS understand things like ShapeFiles, rules-based labeling, and joins between attribute tables.
 
+## Colourmap / Colour Range
+
+Decided to choose colours that:
+
+- easy to distinguish
+- easy to identify using legend
+- visually appealing
+
 ## Observations
 
-- In general, there is a noticeable pattern. The closer a suburb is towards a CBD, the higher the income of the suburb becomes. This was the thought behind the visualisation, and it holds mostly true.
+- In general, there is a noticeable pattern. The suburb's income increases as it approaches a CBD / City. My guess is that due to high costs of living close to a city you need a high income to afford it.
+- The area of each suburb decreases as it approaches a CBD. 
 
 ### Outliers
 
 #### Low Incomes
 
-- Some areas have a weekly median income of 0. 
+- Some areas have a weekly median income of 0. (coloured black)
   - This could be the null value chosen for missing / insufficient data
   - Some of these areas are national parks. There may be nobody registered as living within those areas. All areas of Australia, as far as I have seen belong to a SSC (suburb identifier).
 
 #### High Incomes outside of CBDs
 
-- mining towns have a much higher income then their surrounding suburbs
+- Mining towns have a much higher income then their surrounding suburbs. In the below zoom-out of Australia, you can see there are a number of unusually high income suburbs in the middle of nowhere. These are mostly mining towns.
 
 ## Wider view of all Australia
 
 ![png](\images\abs-choropleth\all-aus-chorpoleth.png)
+
+Luckily the ABS dataset had data for all of Australia. The use of black for incomes of $0 can make the map look incomplete in the centre. However that is just the result of a few giant suburb areas.
