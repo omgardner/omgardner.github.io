@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Hi! My name is Oscar.
-I enjoy exploring datasets, and understanding the current digital world we live in.
+I enjoy exploring datasets and understanding the current digital world we live in.
 
 ### Interests
 
@@ -15,12 +15,11 @@ I enjoy exploring datasets, and understanding the current digital world we live 
 
 ### More Information
 
-- Completed **Bachelor of IT** degree with **Data Science** Major at **Macquarie University** (awaiting graduation ceremony in April)
+- Completed **Bachelor of IT** degree with **Data Science** Major at **Macquarie University**
 - Currently living in Sydney
 
 
 ### Contact me
-[oscarmgardner@gmail.com](mailto:oscarmgardner@gmail.com)
-
+oscarmgardner@gmail.com
 
 Alternatively, you can check the links below to see my linkedin and github account.
