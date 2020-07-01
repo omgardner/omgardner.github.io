@@ -20,6 +20,6 @@ I enjoy exploring datasets and understanding the current digital world we live i
 
 
 ### Contact me
-oscarmgardner@gmail.com
+oscarmgardner at gmail dot com
 
 Alternatively, you can check the links below to see my linkedin and github account.
