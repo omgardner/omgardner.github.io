@@ -138,11 +138,11 @@ I'm using the data as part of a bigger analysis on my messaging habits across pl
 
 In a future article I will work on some interesting visualisations to visually understand the flow and frequency of conversations (that I have). This will help me answer random questions like:
 
-- how long does it take for me to respond to a message on a Thursday?
-- using semantic analysis, do my messages reflect my mood? 
+- How long does it take for me to respond to a message on a Thursday?
+- Using semantic analysis, do my messages reflect my mood? 
     - Do I have happier conversations with closer friends?
     - Can I work out the category of the person: are they a friend? family member? work colleague based on this?
-- Do i swear a lot when talking to different people? 
+- Do I swear a lot when talking to different people? 
 - What time of day do I respond to messages the most? The least?
 - How have my messaging habits changed over time?
 - Do I communicate differently with the same person when a different platform (WhatsApp vs SMS, for example) is used?

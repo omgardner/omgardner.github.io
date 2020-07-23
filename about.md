@@ -4,22 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hi! My name is Oscar.
-I enjoy exploring datasets and understanding the current digital world we live in.
+## About Me
+Hi! I'm Oscar. I use this blog to show the projects I'm working on.
+I love exploring random real-world datasets and being able to generate meaningful visualisations from them.
+Many of my current projects are working with my personal data to gain insights into my subconscious behaviour. 
 
-### Interests
+The current article schedule is a *fortnightly* release. 
 
-- Data Scraping
-- Logistics
-- Visualisations
-
-### More Information
-
-- Completed **Bachelor of IT** degree with **Data Science** Major at **Macquarie University**
-- Currently living in Sydney
-
-
-### Contact me
-oscarmgardner at gmail dot com
-
-Alternatively, you can check the links below to see my linkedin and github account.
+If you have any feedback or ideas for new projects, feel free to contact me at one of the links below!
