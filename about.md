@@ -1,10 +1,9 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-## About Me
 Hi! I'm Oscar. I use this blog to show the projects I'm working on.
 I love exploring random real-world datasets and being able to generate meaningful visualisations from them.
 Many of my current projects are working with my personal data to gain insights into my subconscious behaviour. 
