@@ -15,7 +15,7 @@ I have created an app in Kotlin that extracts my SMS messages and sends them to 
 
 <!--more-->
 
-## Quick rundown of what I learned
+## Quick rundown of what I learned from this project
 
 - How to use Android Studio
 - How to program in Kotlin
@@ -25,6 +25,10 @@ I have created an app in Kotlin that extracts my SMS messages and sends them to 
     - queries
     - Requesting and listening for permissions.
     - Interactions between UI and code.
+    
+## Code
+I have setup a [GitHub repo](https://github.com/omgardner/RetrieveSMSMessages) to hold the code. To jump straight to the activity file containing all the code, click [here](https://github.com/omgardner/RetrieveSMSMessages/blob/master/app/src/main/java/com/omgardner/retrievesmsmessages/MainActivity.kt).
+    
 
 ## Why am I programming my own app?
 
