@@ -182,7 +182,7 @@ Luckily I exported a pdf of the Mode report I created, since I accidentally dele
 
 No. Through the process of trying out Mode, I realise that all my required functionality can be done locally. Additionally it does not matter if the database is hosted, or if it is serverless (e.g. sqlite). 
 
-- All my data lives on the same computer as my dashboard, so it doesn't make much sense to send it to a cloud database just to 
+- All my data lives on the same computer as my dashboard, so it doesn't make much sense to send it to a cloud database just to send it back to the same original pc.
 
 ---
 
