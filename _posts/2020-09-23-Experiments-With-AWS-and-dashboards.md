@@ -6,7 +6,7 @@ tags: [aws,rds,postgresql,mode analytics,python]
 permalink: /aws-mode-dashboard/
 excerpt_separator: <!--more-->
 ---
-![image-20200923143936280](images/aws-mode-dashboard/image-20200923143936280-1600932877488.png)
+![image-20200923143936280](/images/aws-mode-dashboard/image-20200923143936280-1600932877488.png)
 > Experiment using fake data in a Mode Analytics Report (Dashboard)
 
 <!--more-->
@@ -30,7 +30,7 @@ The summary below details each major step of the process in dot-form.
 
 - Needed different types of variables with different distributions. This is to test a diverse range of visualisations.
 	- date data, numerical from random walk distribution, numerical from random normal distribution, random categorical choice data, boolean values in a specific true:false ratio
-- ![image-20200916114642685](images/aws-mode-dashboard/image-20200916114642685-1600932877488.png)
+- ![image-20200916114642685](/images/aws-mode-dashboard/image-20200916114642685-1600932877488.png)
 
 > Process of generating the sample data and creating the PostgreSQL db table. The connection is made prior to this screenshot.
 
@@ -43,7 +43,7 @@ The summary below details each major step of the process in dot-form.
 
 #### insert data into database using the `psycopg2 ` Python library
 
-- ![image-20200916114611406](images/aws-mode-dashboard/image-20200916114611406-1600932877488.png)
+- ![image-20200916114611406](/images/aws-mode-dashboard/image-20200916114611406-1600932877488.png)
 
 > Inserting data into the previously created `dummy` table, and verifying that the INSERT transaction was committed successfully. 
 
@@ -72,7 +72,7 @@ The summary below details each major step of the process in dot-form.
 
 ###### Trap #1: Storage autoscaling 
 
-![image-20200915192842166](images/aws-mode-dashboard/image-20200915192842166-1600932877488.png)
+![image-20200915192842166](/images/aws-mode-dashboard/image-20200915192842166-1600932877488.png)
 
 ###### Trap #2: Enhanced Monitoring
 
@@ -89,7 +89,7 @@ To allow remote access to the database instance, I needed to change the settings
 
 - while searching for a solution, a YouTube comment mentioned one solution: *allow **all** TCP activity*. This comment has **27 likes**. I hope they are not cloud engineers. If they are, then I am not surprised as to why there are so many AWS security misconfigurations and incidents! 
 - My solution was to allow inbound traffic from my IP only. Mode also required a few IP addresses to be allowed through for their connections. That just required another inbound TCP rule.
-- ![image-20200924171604711](images/aws-mode-dashboard/image-20200924171604711.png)
+- ![image-20200924171604711](/images/aws-mode-dashboard/image-20200924171604711.png)
 
 > How the database instance appears once it has been setup.
 
@@ -125,7 +125,7 @@ To allow remote access to the database instance, I needed to change the settings
 
 > This ensures that the colour scheme is maintained.
 
-- ![image-20200923143936280](images/aws-mode-dashboard/image-20200923143936280-1600932877488.png)
+- ![image-20200923143936280](/images/aws-mode-dashboard/image-20200923143936280-1600932877488.png)
 
 > A screenshot of the report that I created. All the data is fake, but was generated with enough variety to approximate how the real data *could* look.
 
