@@ -136,7 +136,7 @@ To allow remote access to the database instance, I needed to change the settings
 
 ```sql
 SELECT pg_terminate_backend(pg_stat_activity.pid) -- function to terminate a session, identified using the session's pid
-FROM pg_stat_activity --get all the process ids form pg_stat_activity
+FROM pg_stat_activity --get all the process ids from pg_stat_activity
 WHERE pg_stat_activity.datname = 'TARGET_DB' --any connection to this db
 AND pid <> pg_backend_pid(); --but not the current connection (remove this line to terminate all sessions including this one)
 ```
