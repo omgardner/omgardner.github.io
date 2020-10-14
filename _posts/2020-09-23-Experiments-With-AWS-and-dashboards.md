@@ -115,9 +115,9 @@ To allow remote access to the database instance, I needed to change the settings
 	-  access the results of any SQL Queries as Pandas DataFrames (Python)
 	-  can display any arbitrary notebook Output like a chart
 	-  after some testing, here's what I found:
-	-  cannot render Markdown or LaTeX to a cell's output using the `IPython` library
-	-  however I **can** render html (`IPython.display.HTML`). That would allow for some creative things.
-		-  unfortunately some libraries like Plotly were broken because in Mode you don't have control over the virtual environment
+		-  cannot render Markdown or LaTeX to a cell's output using the `IPython` library
+		-  however I **can** render html (`IPython.display.HTML`). That would allow for some creative things.
+			-  unfortunately some libraries like Plotly were broken because in Mode you don't have control over the virtual environment
 - How to make Jupyter charts pretty:
 	- make the chart background transparent
 	- change all the text colours to something more visible on the report
