@@ -13,8 +13,7 @@ excerpt_separator: <!--more-->
 
 ## Quick Description
 
-This article is a summary of how I created a dashboard using Mode Analytics. I did it to test the feasibility of a cloud-hosted dashboard to analyse my personal data. I always keep a development log for my personal posts, so 
-
+This article is a summary of how I created a dashboard using Mode Analytics. I did it to test the feasibility of a cloud-hosted dashboard to analyse my personal data. I always keep a development log for my personal posts, so it was quite easy to translate that into an article format.
 
 The requirements for Mode: a database connection as the data source. 
 
